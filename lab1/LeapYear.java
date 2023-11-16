@@ -24,7 +24,7 @@ public class LeapYear {
             try {
                 int year = Integer.parseInt(args[i]);
                 checkLeapYear(year);
-            } catch (NumberFormatException e) {
+            } catch (NumberFormatException e) {a
                 System.out.printf("%s is not a valid number.\n", args[i]);
             }
         }
